@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - RedSur Atlántico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Dashboard</h1>
+            <nav>
+                <a href="#products">Productos</a>
+                <a href="#compare">Comparar</a>
+                <button id="logout" class="btn">Cerrar Sesión</button>
+            </nav>
+        </div>
+    </header>
+
+    <section id="products" class="section">
+        <div class="container">
+            <h2>Lista de Productos</h2>
+            <table id="priceTable">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Proveedor A</th>
+                        <th>Proveedor B</th>
+                        <th>Fecha Actualización</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Datos simulados -->
+                    <tr>
+                        <td>Arroz 1kg</td>
+                        <td>$5.00</td>
+                        <td>$4.80</td>
+                        <td>15/10/2023</td>
+                    </tr>
+                    <tr>
+                        <td>Leche 1L</td>
+                        <td>$1.20</td>
+                        <td>$1.10</td>
+                        <td>15/10/2023</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="compare" class="section">
+        <div class="container">
+            <h2>Comparar Precios</h2>
+            <p>Selecciona productos para comparar (simulado).</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
